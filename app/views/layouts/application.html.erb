@@ -12,9 +12,16 @@
   <body>
     <%= render partial: 'shared/nav_bar' %>
     
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <div class="container-fluid p-0">
+      <div id="message">
+        <%= render partial: 'shared/flash_messages' %>
+      </div>
 
-    <%= yield %>
+      <%= render partial: 'shared/carousel' %>
+    </div>
+
+    <div class="container-fluid">
+      <%= yield %>
+    </div>
   </body>
 </html>

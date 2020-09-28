@@ -1,0 +1,22 @@
+// Place all the styles related to the Items controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+#message {
+  position: fixed;
+  top: 50px;
+  left: 10%;
+  width: 80%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 10%;
+}
+
+.main-carousel {
+  .carousel-caption {
+    left: 10%;
+    top: 35%;
+    text-align: left;
+  }
+}
