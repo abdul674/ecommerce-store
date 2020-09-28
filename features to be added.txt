@@ -1,0 +1,3 @@
+features to be added
+
+1) Sale, based on time or recursive sale etc.

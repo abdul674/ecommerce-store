@@ -1,1 +1,1 @@
-STORE_NAME = "Abdul Store"
+STORE_NAME = "Abdul's Collection"
